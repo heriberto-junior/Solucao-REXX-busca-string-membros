@@ -3,10 +3,10 @@
 Solução em JCL e REXX que percorre todos os membros de um dataset particionado, identifica ocorrências específicas dentro de cada membro e grava o resultado consolidado em um arquivo de saída.
 
 ## JCL
-```
+
 O JCL desta solução possui dois steps.  
 No primeiro step, é gerada uma listagem completa dos membros do PDS `PRINC.LIB.SOURCE`, com estrutura semelhante a:
-
+```
     READY
       LISTDS 'PRINC.LIB.SOURCE' MEMBERS
     PRINC.LIB.SOURCE
