@@ -26,6 +26,8 @@ No primeiro step, é gerada uma listagem completa dos membros do PDS `PRINC.LIB.
     READY
     END
 ```
+PS: O '...' antes de READY contém todos os membros do particionado.
+
 O segundo step executa o membro REXX `LISTMEMB`, localizado em `LIBPRINC.LIB.REXX`, responsável por ler cada membro listado e aplicar as regras de extração.
 
 ---
