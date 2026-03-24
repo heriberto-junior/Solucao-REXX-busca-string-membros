@@ -1,4 +1,4 @@
-# [EN] Solucao-REXX-busca-string-membros
+# [ENG] Solucao-REXX-busca-string-membros
 
 A JCL and REXX solution that iterates through all members of a partitioned dataset, identifies specific string occurrences within each member, and writes the consolidated result to an output file.
 
